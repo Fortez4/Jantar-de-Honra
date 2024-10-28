@@ -1,0 +1,104 @@
+.libre-bodoni-{
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.montserrat-{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+*{
+    background-color: white;
+    font-style: italic;
+    color: #a45c04;
+}
+
+header{
+    background-image: url(img/nois.jpg);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    width: 100%;
+}
+
+.caixa{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 400px;
+    width: 85%;
+}
+
+header h1{
+    font-size: 65px;
+    font-family: Libre Bodoni;
+}
+
+header h6{
+    font-size: 20px;
+    font-family: Libre Bodoni;
+}
+
+#linha{
+    width: 300px; 
+}
+
+/*main*/
+
+main{ 
+    margin-top: 40px;
+}
+
+main p{
+    font-style: normal;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+main h2{
+    font-size: 40px;
+    font-family: Libre Bodoni;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    header{
+        background-image: url(img/nois.jpg);
+        height: 450px;
+    }
+    
+    .caixa{
+        height: 330px;
+    }
+    
+    header h1{
+        font-size: 50px;
+    }
+
+    header h6{
+        font-size: 15px;
+    }
+
+    #linha{
+        width: 240px; 
+    }
+}
